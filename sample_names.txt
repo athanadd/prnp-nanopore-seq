@@ -1,0 +1,12 @@
+barcode01	sid13_54493
+barcode02	sid16_54890
+barcode03	sid17_54892
+barcode04	sid18_54906
+barcode05	sid19_54917
+barcode06	sid20_54960
+barcode07	sid21_54968
+barcode08	sid22_55048
+barcode09	sid23_55050
+barcode10	sid24_55052
+barcode11	sid77_56635
+barcode12	sid78_56642
