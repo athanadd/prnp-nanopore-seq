@@ -40,7 +40,7 @@ to do your own basecalling and then continue with the pipeline.
 
 ### Before you start
 
-The most important step is to setup your own options in the global_parameters.sh file. The file is already pre-populated
+It is important to setup your own options in the global_parameters.sh file. The file is already pre-populated
 with the configuration I used in my system, but should be changed to suit your needs. Please do set all the options
 in this file before starting the analysis, so that everything will run smoothly.
 There are some options that should be fine not to change if you follow the steps (such as the containers), and they are marked with *** at their
@@ -52,7 +52,7 @@ You should also create a simple text file named sample_names.txt and placed in t
 The file is a tab-delimited document with 2 columns.
 column 1 should be the name of the barcode of a specific sample (e.g. barcode01), and
 column 2 should be the name of the sample that makes sense to you (e.g. my_sample_2537)
-THE FILE SHOULD HAVE A BLANK NEW LINE AT THE END!!! (just press enter to create a new line and save it like that)
+The file should have a blank new line at the end! (just press enter to create a new line and save it like that)
 
 
 
