@@ -8,8 +8,7 @@
 
 # Set genome fasta file
 # Set number of threads to be used for the proccess of each sample in various multithreaded operations
-# Set the output file to generate (specify it here, not in global_parameters)
-index_output=/mnt/disk3_36TB/Thanos_sequencing/required_files/etc/minimap2/hg38.mmi
+# Set path to reference genome index file to be generated
 
 ####
 
@@ -19,4 +18,4 @@ source $scripts_folder/global_parameters.sh
 
 
 docker run --rm $docker_mount --user $(id -u):$(id -g) $minimap2_image \
-minimap2 -t $thrds -d $output $genome
+minimap2 -t $thrds -d $minimap2_index $genome
